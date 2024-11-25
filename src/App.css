@@ -1,0 +1,54 @@
+.calendar {
+    margin: 0 auto;
+}
+.not-complete, .complete {
+    display: flex;
+    gap: 10px;
+}
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    place-items: center;
+}
+.modal-wrapper {
+    border-radius: 20px;
+    padding: 12px 24px;
+    background-color: white;
+}
+.input {
+    padding: 8px;
+    min-width: 250px;
+    border-radius: 12px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.form-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.not-complete {
+    color: red;
+}
+.content {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.new-task {
+    padding: 8px;
+    border-radius: 8px;
+    width: fit-content;
+    align-self: center;
+}
